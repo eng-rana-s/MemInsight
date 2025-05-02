@@ -1,0 +1,23 @@
+# Core libraries
+transformers>=4.38.0
+datasets>=2.18.0
+faiss-cpu>=1.7.4
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.2
+
+# For evaluation and metrics
+rouge-score>=0.1.2
+nltk>=3.8
+evaluate>=0.4.0
+
+# For API interaction (if using LLM APIs like Claude, OpenAI, etc.)
+openai>=1.14.0
+anthropic>=0.22.0
+
+# For visualization (optional)
+matplotlib
+tqdm
+
+# Optional: if using Hugging Face inference endpoints or logging
+huggingface_hub

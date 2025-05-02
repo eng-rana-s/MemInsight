@@ -1,4 +1,4 @@
-# 🧠 MemInsight: Autonomous Memory Augmentation for LLM Agents
+# MemInsight: Autonomous Memory Augmentation for LLM Agents
 
 MemInsight is a structured memory augmentation framework designed to enhance the long-term reasoning and adaptability of large language model (LLM) agents. It introduces autonomous memory annotation and retrieval methods that help agents organize and access relevant historical context during inference.
 

@@ -57,13 +57,10 @@ cd meminsight
 pip install -r requirements.txt
 
 ### Run attribute mining and augmentation
-python augment_memory.py --dataset llm-redial --model claude-3-sonnet
-
-### Run retrieval
-python retrieve_memory.py --method embedding --top_k 5
+python main.py --dataset llm-redial --model claude-3-sonnet
 
 ### Evaluate
-python evaluate.py --task recommendation
+python main.py --task recomm --dataset "dataset_path" --anotations "annotations path"
 
 ---
 ## Models Used

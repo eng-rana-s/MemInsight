@@ -1,23 +1,24 @@
-# Core libraries
-transformers>=4.38.0
-datasets>=2.18.0
-faiss-cpu>=1.7.4
-numpy>=1.24
-pandas>=1.5
-scikit-learn>=1.2
-
-# For evaluation and metrics
-rouge-score>=0.1.2
-nltk>=3.8
-evaluate>=0.4.0
-
-# For API interaction (if using LLM APIs like Claude, OpenAI, etc.)
-openai>=1.14.0
-anthropic>=0.22.0
-
-# For visualization (optional)
-matplotlib
+# Core dependencies
 tqdm
-
-# Optional: if using Hugging Face inference endpoints or logging
+argparse
+pandas
+numpy
+regex
+nltk
+bert-score
+faiss-cpu  # or faiss-gpu if you're using GPU
+openai
+boto3
+botocore
+retry
+transformers
+torch
 huggingface_hub
+
+# For evaluating metrics like ROUGE
+rouge-score  # or custom 'evaluation.rougel_score' assumed to be in-repo
+
+# If faiss gives you trouble:
+# pip install faiss-cpu (for CPU)
+# pip install faiss-gpu (for GPU support)
+
